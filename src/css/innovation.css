@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.innovation-grouping {
+  display: flex;
+  /* gap: 2rem; */
+  width: 98vw;
+  justify-content: space-between;
+  margin: 2rem 0;
+  /* border: 2px solid red; */
+  /* height: 80vh; */
+}
+.innovation {
+  text-align: center;
+}
+.innovation-image,
+.innovation1-image {
+  width: 48vw;
+}
+.innovation-image {
+  height: 50vh;
+}
+.innovation1-image {
+  height: 80vh;
+}
+.innovation h1 {
+  margin-top: 2rem;
+  color: #000;
+  font-family: Arial;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+.innovation p {
+  color: #000;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+  margin: 0 auto;
+}
