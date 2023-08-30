@@ -1,0 +1,61 @@
+.serviceBody {
+  background-color: white;
+}
+.contents {
+  display: flex;
+  justify-content: center;
+}
+.num h1 {
+  color: #bc78f3;
+  text-align: right;
+  font-family: Arial;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 270px; /* 150% */
+}
+.stages {
+  margin: 7rem 0 2rem 2rem;
+}
+.stage {
+  width: 700px;
+}
+.stage hr {
+  border: 2px solid #51aefb;
+  width: 379px;
+  margin-left: 1rem;
+  /* height: 3px; */
+  color: #51aefb;
+}
+.stage h3 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.4px; /* 126% */
+  /* border: 2px solid red; */
+}
+.design-content {
+  margin-top: 4rem;
+}
+.stage p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.8px; /* 133.75% */
+}
+.stage h4 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-left: 0.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35.2px; /* 110% */
+}
+.check {
+  margin: 4rem 0 0.5rem;
+}

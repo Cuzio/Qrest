@@ -1,0 +1,43 @@
+.heroDigital {
+  background-image: url("../images/hero2.png");
+  text-align: center;
+  height: 50vh;
+}
+.content h1 {
+  padding-top: 8rem;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136px; /* 141.667% */
+  text-transform: uppercase;
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+}
+.brand2,
+.software2,
+.digital2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.brand2,
+.software2 {
+  border-right: 2px solid #fff;
+  padding-right: 2rem;
+}
+.digital2 {
+  /* padding-right: 2rem; */
+  /* border-right: 2px solid #fff; */
+  text-decoration: underline #7d56fc;
+}

@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 6rem;
+  /* border: 2px solid red; */
+}
+.appoint {
+  max-width: 400px;
+}
+.appoint h6 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.8px; /* 119% */
+}
+.appoint h4 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px; /* 130% */
+}
+.appoint p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 135% */
+}
+.message {
+  max-width: 1500px;
+}
+.input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+.fill {
+  margin: 0.5rem 0;
+}
+.messagetext {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+label {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px; /* 160% */
+}
+label span {
+  color: #f00;
+}
+.contact_us {
+  padding: 5px 10px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  background: #7d56fc;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 160% */
+  letter-spacing: 0.2px;
+}

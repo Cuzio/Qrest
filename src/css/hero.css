@@ -1,0 +1,33 @@
+.hero {
+  background-image: url("../images/hero2.png");
+  height: 90vh;
+  text-align: center;
+}
+.hero h1 {
+  padding: 10rem 0 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116px; /* 120.833% */
+}
+.btns {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.2px;
+  border-radius: 35px;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 2rem;
+  background: #7d56fc;
+}
+.btns:hover {
+  background: #7d56fc;
+  font-size: 18px;
+  color: #fff;
+}

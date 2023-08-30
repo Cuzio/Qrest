@@ -1,0 +1,26 @@
+.work {
+  text-align: center;
+  /* background-image: url("../images/Our\ work.png"); */
+  background-color: black;
+}
+.work p {
+  color: #7d56fc;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 5rem;
+  line-height: 23px; /* 115% */
+}
+.work h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116px; /* 241.667% */
+}
+.work img {
+  width: 90vw;
+  padding-bottom: 5rem;
+}

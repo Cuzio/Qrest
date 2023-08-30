@@ -1,0 +1,73 @@
+.offer {
+  background-image: url("../images/Frame1000004877.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 270vh;
+  text-align: center;
+  background-color: black;
+}
+.offer p {
+  padding-top: 2rem;
+  color: #7d56fc;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 115% */
+}
+.offer h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116px; /* 241.667% */
+}
+.push {
+  margin-top: 8rem;
+  margin-bottom: 0rem;
+}
+.services {
+  /* margin: 0rem 12rem; */
+  padding: 2rem 18rem 0;
+  width: 99vw;
+}
+.explain {
+  text-align: left;
+}
+.explain h4 {
+  color: #51aefb;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.2px; /* 120% */
+}
+.explain p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px; /* 200% */
+  padding-top: 0;
+}
+.explain hr {
+  border-top: 6px solid rgba(81, 174, 251, 0.5);
+  width: 427.5px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.numbers {
+  padding-right: 25rem;
+}
+.number h1 {
+  color: #bc78f3;
+  text-align: right;
+  font-family: Arial;
+  font-size: 259px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 270px; /* 104.247% */
+}

@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.blog-service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 98vw;
+  padding: 3rem;
+  /* border: 2px solid red; */
+}
+.brand-image,
+.vr-image,
+.headset-image,
+.figma-image {
+  max-width: 500px;
+}
+.laptop {
+  text-decoration: none;
+}
+.brand,
+.vr,
+.headset,
+.figma {
+  margin: 1rem;
+  text-decoration: none;
+}
+.brand-h,
+.vr-h {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: 0.32px;
+}
+
+.blog-type {
+  margin: 1rem;
+  border: none;
+}
+.vr-type {
+  max-width: 92%;
+  border: 2px solid red;
+}
+.blog-service-single {
+  padding: 3rem 3rem 3rem 2rem;
+}
+.laptop-image {
+  width: 95vw;
+}

@@ -1,0 +1,86 @@
+.footer {
+  background-color: black;
+}
+.book {
+  padding: 10rem 0 5rem;
+}
+.book h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 80% */
+}
+.book p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.96px;
+  width: 750px;
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+.btnz {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.2px;
+  border-radius: 35px;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 2rem;
+  background: #7d56fc;
+  margin-bottom: 5rem;
+}
+.btnz:hover {
+  background: #7d56fc;
+  font-size: 18px;
+  color: #fff;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15rem;
+  /* border: 2px solid red; */
+}
+.copy {
+  margin: 0 2rem;
+  /* border: 2px solid red; */
+  height: 25px;
+  align-items: center;
+}
+.socialz {
+  /* border: 2px solid red; */
+  margin-right: 8rem;
+}
+.copy p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.2px; /* 113.333% */
+}
+.socials {
+  width: 150px;
+  /* border: 2px solid red; */
+  padding: 0;
+  margin-left: 4rem;
+}
+.social {
+  /* border: 2px solid red; */
+  width: 30px;
+  cursor: pointer;
+  height: 18.9px;
+  flex-shrink: 0;
+  color: #fff;
+  margin: 0;
+}

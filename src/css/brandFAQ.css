@@ -1,0 +1,58 @@
+.brand-faq {
+  border-radius: 12px;
+  background: rgba(242, 241, 246, 0.94);
+  box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.16);
+  /* height: 726.39px; */
+}
+.faq {
+  width: 1140px;
+  height: 506.39px;
+  flex-shrink: 0;
+}
+.faq h1 {
+  color: #28303f;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  text-transform: capitalize;
+  padding-top: 5rem;
+  /* border: 2px solid red; */
+}
+.faq p {
+  color: #28303f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+details {
+  width: 684px;
+  padding: 10px;
+  /* min-height: 30px; */
+  flex-shrink: 0;
+  background: #fff;
+  align-items: center;
+  margin: 1rem auto;
+}
+summary {
+  color: #28303f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 100% */
+}
+details p {
+  color: var(--fair-money-dark-blue-gray-800-body-text, #434f75);
+  font-family: Inter;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: 0.96px;
+}
