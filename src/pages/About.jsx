@@ -10,9 +10,9 @@ const About = () => {
     <div>
       <HeroAbout />
       <AboutUs />
-      <AboutUsBody />
-      <Vision />
       <Team />
+      <AboutUsBody />
+      {/* <Vision /> */}
     </div>
   );
 };

@@ -6,12 +6,12 @@ const Team = () => {
     <div className="team">
       <div className="our-team">
         <h2>Meet our team</h2>
-        <p>
+        {/* <p>
           At Qrest, we believe that creativity and strategy go hand in hand. Our
           team of designers, developers, and marketing experts work
           collaboratively to deliver unique, compelling experiences that help
           your brand stand out in a crowded marketplace.
-        </p>
+        </p> */}
       </div>
       <div class="containers">
         <div>
