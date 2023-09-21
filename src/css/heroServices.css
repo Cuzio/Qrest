@@ -6,7 +6,7 @@
 .content h1 {
   padding-top: 8rem;
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -39,4 +39,12 @@
 .software {
   padding-right: 2rem;
   border-right: 2px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .content h1 {
+    padding-top: 4rem;
+    font-size: 56px;
+    border-radius: 2px solid red;
+  }
 }
