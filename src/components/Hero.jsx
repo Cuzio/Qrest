@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const words = ["style", "Innovations", "strategy"];
@@ -16,7 +17,11 @@ const Hero = () => {
   return (
     <div className="hero">
       <h1>Where creativity meets {words[currentIndex]}</h1>
-      <button className="btns">Explore our creativity</button>
+      <button className="btns">
+        <Link to="/work" className="btns">
+          Explore our creativity
+        </Link>
+      </button>
     </div>
   );
 };

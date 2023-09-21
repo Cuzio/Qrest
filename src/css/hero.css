@@ -25,9 +25,16 @@
   padding: 5px 10px;
   margin-top: 2rem;
   background: #7d56fc;
+  text-decoration: none;
 }
 .btns:hover {
   background: #7d56fc;
   font-size: 18px;
   color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .hero h1 {
+    font-size: 75px;
+  }
 }

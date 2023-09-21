@@ -2,6 +2,7 @@ import React from "react";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaFacebookSquare, FaLinkedinIn } from "react-icons/fa";
 import "../css/footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,7 +16,11 @@ const Footer = () => {
             collaboratively to deliver unique products
           </p>
           <p>Umuahia, Abia State, Nigeria</p>
-          <button className="btnz">Book a Consultation</button>
+          <button className="btnz">
+            <Link to="/contact" className="btnz">
+              Book a Consultation
+            </Link>{" "}
+          </button>
         </div>
       </div>
       <div className="foot py-5">
@@ -24,10 +29,28 @@ const Footer = () => {
         </div>
         <div className="socialz">
           <div className="socials d-flex">
-            <BsInstagram className="social" />
-            <FaFacebookSquare className="social" />
-            <BsTwitter className="social" />
-            <FaLinkedinIn className="social" />
+            <Link
+              to="https://instagram.com/qrest_design_agency?igshid=MzNlNGNkZWQ4Mg==
+"
+              className="social"
+            >
+              <BsInstagram className="social" />
+            </Link>
+            <Link to="" className="social">
+              {" "}
+              <FaFacebookSquare className="social" />
+            </Link>
+            <Link
+              to="https://twitter.com/qrest_d_agency?t=zWIz2HECIfWa-pikpFv0lw&s=09
+"
+              className="social"
+            >
+              {" "}
+              <BsTwitter className="social" />
+            </Link>
+            <Link to="" className="social">
+              <FaLinkedinIn className="social" />
+            </Link>
           </div>
         </div>
         <div className="copy">

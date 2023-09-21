@@ -11,11 +11,11 @@ const Client = () => {
           <h3>Our Clients</h3>
         </div>
       </div>
-      <div className="pick row">
-        <div className="quote col-sm-3">
-          <img src={quote} alt="" />
+      <div className="pick ">
+        <div className="quote">
+          <img src={quote} alt="" className="quote-image" />
         </div>
-        <div className="testimory col-sm-8">
+        <div className="testimory">
           <h4>
             The best design agency. Giving top notch services. Thanks to Qrest
             and it’s creative team for an outstanding job on Qwikserve delivery

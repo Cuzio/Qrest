@@ -13,10 +13,14 @@
   padding: 8rem 0;
   width: 50%;
 }
+.quote-image {
+  width: 100px;
+}
 .testimory {
   width: 1048px;
   padding: 47px 2px 1px 0px;
   align-items: flex-start;
+  margin-left: 5rem;
   /* border: 2px solid red; */
 }
 .testimory h4 {
@@ -38,8 +42,44 @@
   padding-bottom: 5rem;
 }
 .pick {
+  display: flex;
   width: 99vw;
 }
 .quote {
-  margin-left: 2rem;
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 767px) {
+  .client {
+    /* border: 2px solid red; */
+    border: none;
+  }
+  .intro h3 {
+    text-align: center;
+    padding: 4rem 0;
+    width: 100%;
+  }
+  .quote {
+    margin-left: 2rem;
+  }
+  .quote-image {
+    width: 30px;
+    /* border: 2px solid red; */
+  }
+  .testimory {
+    width: 500px;
+    padding: 15px 0px 1px 0px;
+    margin-left: 1rem;
+  }
+  .testimory h4 {
+    font-weight: 400;
+    line-height: 30px; /* 200% */
+    width: 100%;
+  }
+  .testimory p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px; /* 225% */
+    padding-bottom: 5rem;
+  }
 }

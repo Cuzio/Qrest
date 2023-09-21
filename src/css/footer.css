@@ -38,6 +38,7 @@
   margin-top: 2rem;
   background: #7d56fc;
   margin-bottom: 5rem;
+  text-decoration: none;
 }
 .btnz:hover {
   background: #7d56fc;
@@ -83,4 +84,46 @@
   flex-shrink: 0;
   color: #fff;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .book {
+    padding: 2rem 0 0rem;
+    /* border: 2px solid red; */
+  }
+  .book h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .book p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .btnz {
+    margin-bottom: 2rem;
+  }
+  .foot {
+    flex-direction: column;
+    padding-top: 0rem;
+    /* border: 2px solid red; */
+  }
+  .copy {
+    margin: 1rem 0;
+    /* border: 2px solid red; */
+    height: 25px;
+  }
+  .socialz {
+    /* border: 2px solid red; */
+    margin-right: 0rem;
+  }
+  .socials {
+    width: 150px;
+    /* border: 2px solid red; */
+    padding: 0;
+    margin-left: 2rem;
+  }
 }
