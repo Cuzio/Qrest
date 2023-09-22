@@ -5,7 +5,7 @@ import "../css/contactBody.css";
 const ContactBody = () => {
   return (
     <div>
-      <div className="contents">
+      <div className="contentz">
         <div className="appoint">
           <h6>Message Us</h6>
           <h4>Free Appointment</h4>

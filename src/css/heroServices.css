@@ -44,7 +44,16 @@
 @media screen and (max-width: 767px) {
   .content h1 {
     padding-top: 4rem;
-    font-size: 56px;
-    border-radius: 2px solid red;
+    font-size: 2rem;
+    /* border: 2px solid red; */
+  }
+  .products {
+    /* border-radius: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid red;
   }
 }
