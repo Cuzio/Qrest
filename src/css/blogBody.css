@@ -51,4 +51,30 @@
 }
 .laptop-image {
   width: 95vw;
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-service {
+    flex-direction: column;
+    max-width: 100vw;
+    padding: 0rem;
+    gap: 2rem;
+  }
+  .blog-type {
+    width: 100%;
+    margin: 0rem;
+    /* border: 2px solid red; */
+  }
+  .blog-service-single {
+    padding: 0;
+    margin: 2rem 0;
+  }
+  .laptop-image {
+    width: 100vw;
+  }
+  .vr-type {
+    max-width: 100%;
+    border: 2px solid red;
+  }
 }

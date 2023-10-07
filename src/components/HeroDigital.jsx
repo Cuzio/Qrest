@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const HeroDigital = () => {
   return (
     <div className="heroDigital">
-      <div className="content">
+      <div className="conte">
         <h1>SERVICES</h1>
-        <div className="products">
+        <div className="productzz">
           <Link to="/services" className="brand2" href="#">
             Branding
           </Link>{" "}

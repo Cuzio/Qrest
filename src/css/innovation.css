@@ -42,3 +42,19 @@
   max-width: 250px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+  .innovation-image,
+  .innovation1-image {
+    width: 100vw;
+  }
+  .innovation-grouping {
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+  }
+  .innovation {
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+}

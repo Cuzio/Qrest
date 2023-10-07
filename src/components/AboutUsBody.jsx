@@ -13,13 +13,13 @@ const AboutUsBody = () => {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <Innovation />
+            <Innovation className="carol-image" />
           </div>
           <div class="carousel-item">
-            <Strategy />
+            <Strategy className="carol-image" />
           </div>
           <div class="carousel-item">
-            <Style />
+            <Style className="carol-image" />
           </div>
         </div>
         <button

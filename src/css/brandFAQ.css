@@ -56,3 +56,14 @@ details p {
   line-height: 18px; /* 112.5% */
   letter-spacing: 0.96px;
 }
+
+@media screen and (max-width: 767px) {
+  .faq {
+    width: 100%;
+    margin-bottom: 2rem;
+    /* border: 2px solid red; */
+  }
+  details {
+    width: 100%;
+  }
+}

@@ -9,7 +9,7 @@ const Strategy = () => {
       <div className="innovation-grouping">
         <div className="innovation">
           <img src={strategy} alt="" className="innovation-image" />
-          <h1>Style</h1>
+          <h1>Strategy</h1>
           <p>Are you ready for the new generation of marketing?</p>
         </div>
         <div className="innovation1">

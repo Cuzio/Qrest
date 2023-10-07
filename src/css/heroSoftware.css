@@ -3,22 +3,26 @@
   text-align: center;
   height: 50vh;
 }
-.content h1 {
+/* .content { */
+/* margin-top: 0rem; */
+/* } */
+.conten h1 {
   padding-top: 8rem;
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
   line-height: 136px; /* 141.667% */
   text-transform: uppercase;
 }
-.products {
+.productz {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 500px;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 .brand1,
 .software1,
@@ -39,4 +43,18 @@
   padding-right: 2rem;
   border-right: 2px solid #fff;
   text-decoration: underline #7d56fc;
+}
+
+@media screen and (max-width: 767px) {
+  .conten {
+    width: 100vw;
+  }
+  .conten h1 {
+    padding-top: 8rem;
+    font-size: 80px;
+  }
+  .productz {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
 }

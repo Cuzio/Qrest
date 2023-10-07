@@ -59,3 +59,21 @@
 .check {
   margin: 4rem 0 0.5rem;
 }
+
+@media screen and (max-width: 767px) {
+  .stages {
+    width: 100%;
+    margin: 0;
+    /* border: 2px solid red; */
+  }
+  .stage {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .contents {
+    flex-direction: column;
+  }
+  .num h1 {
+    text-align: center;
+  }
+}

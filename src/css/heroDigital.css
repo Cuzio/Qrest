@@ -3,7 +3,7 @@
   text-align: center;
   height: 50vh;
 }
-.content h1 {
+.conte h1 {
   padding-top: 8rem;
   color: #fff;
   font-family: Roboto;
@@ -13,7 +13,7 @@
   line-height: 136px; /* 141.667% */
   text-transform: uppercase;
 }
-.products {
+.productzz {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,7 +37,19 @@
   padding-right: 2rem;
 }
 .digital2 {
-  /* padding-right: 2rem; */
-  /* border-right: 2px solid #fff; */
   text-decoration: underline #7d56fc;
+}
+
+@media screen and (max-width: 767px) {
+  .conte {
+    width: 100vw;
+  }
+  .conte h1 {
+    padding-top: 8rem;
+    font-size: 80px;
+  }
+  .productzz {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
 }
