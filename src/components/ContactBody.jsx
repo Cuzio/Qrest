@@ -1,8 +1,28 @@
 import React from "react";
 import contact from "../images/contact.png";
 import "../css/contactBody.css";
+import emailjs from "emailjs-com";
 
 const ContactBody = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_bftvsdj",
+        "template_7lbo25g",
+        e.target,
+        "x5mPoTHghaCtC2JIc"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
   return (
     <div>
       <div className="contentz">
@@ -15,7 +35,50 @@ const ContactBody = () => {
           </p>
         </div>
         <div className="message">
-          <form
+          <form onSubmit={sendEmail}>
+            <div className="fill">
+              <label htmlFor="name">
+                Your Name(required) <span>*</span>
+              </label>
+              <input
+                type="text"
+                name="to_name"
+                className="input"
+                placeholder="Your Name"
+              />
+            </div>
+            <div className="fill">
+              <label htmlFor="name">
+                Your Email(required) <span>*</span>
+              </label>
+              <input
+                type="email"
+                name="to_email"
+                className="input"
+                placeholder="Your Email"
+              />
+            </div>
+            <div className="fill">
+              <label htmlFor="name">
+                Subject <span>*</span>
+              </label>
+              <input type="text" name="to_subject" className="input" required />
+            </div>
+            <div className="fill">
+              <label htmlFor="name">
+                Message <span>*</span>
+              </label>
+              <textarea
+                name="message"
+                className="messagetext"
+                placeholder="Your Message"
+              />
+            </div>
+            <button type="submit" className="contact_us">
+              Send Email
+            </button>
+          </form>
+          {/* <form
             action="mailto:maxwellokoye0@gmail.com"
             method="post"
             enctype="text/plain"
@@ -51,10 +114,7 @@ const ContactBody = () => {
               ></textarea>
             </div>
             <input type="submit" value="Contact Us" className="contact_us" />
-            {/* <button>
-              <a href="mailto:itomax19@gmail.com">Contact Us</a>
-            </button> */}
-          </form>
+          </form> */}
         </div>
       </div>
       <div>
